@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:retro_calculator_test/core/constants/app_colors.dart';
-import 'package:retro_calculator_test/presentation/widgets/button_calculator.dart';
-import 'package:retro_calculator_test/logic/parser/calculator_parser.dart';
+import '../../core/constants/app_colors.dart';
+import '../../presentation/widgets/button_calculator.dart';
+import '../../logic/parser/calculator_parser.dart';
 
 import '../controller/calculator_controller.dart';
 
@@ -159,3 +159,4 @@ class _ScreenCalculatorState extends State<ScreenCalculator> {
     );
   }
 }
+
