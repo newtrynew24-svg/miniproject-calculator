@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:retro_calculator_test/logic/parser/calculator_parser.dart';
+import '../../logic/parser/logic/parser/calculator_parser.dart';
 
 import '../../logic/handlers/calculator_input_handler.dart';
 
@@ -51,3 +51,4 @@ class CalculatorController extends ChangeNotifier {
   }
 
 }
+
